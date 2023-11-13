@@ -254,7 +254,7 @@ img {
 }
 
 .descricaoProjeto{
-    width: 490px;
+    max-width: 490px;
     padding: 10px 0 10px 10px;
     background-color: white;
     color: black;
@@ -326,6 +326,7 @@ img {
 }
 
 footer {
+    width: 100vw;
     color: white;
     text-align: center;
     background-color: #244D61;
