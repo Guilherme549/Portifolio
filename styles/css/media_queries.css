@@ -29,6 +29,12 @@
         min-width: 50%;
         min-height: 50%;
     }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }
 
 @media (max-width: 1046px) {
@@ -46,11 +52,14 @@
         width: auto;
         
     }
-    .main > p{
-        max-width: 45vw;
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
 }
+
+
 
 
     /* Habilidades */
@@ -67,8 +76,10 @@
         min-height: 50%;
     }
 
-    .main > p{
-        min-width: 45vw;
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
