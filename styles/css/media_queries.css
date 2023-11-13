@@ -1,14 +1,69 @@
-@media (max-width: 768px) {
+
+
+
+@media (max-width: 768px) and (max-width: 992px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    nav > a{
+        display: none;  
+    }
+
+    .images {
+        order: -1; 
+        margin-bottom: 2rem; 
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Habilidades */
     .skillsList {
+        /* display: contents; */
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skillsList > li{
+        width: auto;
+        
+    }
+
+    .mySlides > img{
+        min-width: 50%;
+        min-height: 50%;
     }
 }
 
-    @media (max-width: 480px) {
+@media (max-width: 1046px) {
+    nav > a{
+        display: none;
+    }
+
+    .skillsList > li{
+        width: auto;
+        
+    }
+
+}
+
+
+    /* Habilidades */
+@media (max-width: 480px) {
     .skillsList {
         grid-template-columns: 1fr;
     }
     .skillsList > li {
-        width: 100%; /* Ocupar toda a largura disponível */
+        width: auto; 
+    }
+
+    .mySlides > img{
+        min-width: 50%;
+        min-height: 50%;
     }
 }
+
+
+
+
+
