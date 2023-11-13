@@ -46,7 +46,9 @@
         text-align: justify;
     }
 
-    
+    .descricaoProjeto{
+        padding: 40px 0px 40px 0px;
+    }
    
 }
 
@@ -118,6 +120,9 @@
         height: 180;
     }
 
+    .descricaoProjeto{
+        padding: 40px 0px 40px 0px;
+    }
 
 }
 
