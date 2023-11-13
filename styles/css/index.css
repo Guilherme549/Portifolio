@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     max-height: 100vh;
@@ -20,11 +24,15 @@ header {
     box-shadow: 0 0.1px 10px rgba(255, 255, 255, 0.205);
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     align-items: center;
     border-radius: 0 0 8px 8px;
          
+}
+
+#myNameNav{
+    padding-left: 100px;
 }
 
 .logo {
@@ -37,86 +45,85 @@ header {
     text-decoration: none;
  }
 
+nav{
+    padding-right: 80px;
+}
 
-        nav a {
-            color: #c0c0c0;
-            text-decoration: none;
-            font-size: .97rem;
-            font-weight: 600;
-            letter-spacing: .7px;
-            padding: 1rem;
-            padding: 0.4rem 2rem;
-        }
+nav a {
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: .97rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    padding: 0.4rem 2.3rem;
+}
 
-        nav a.active,
-        nav a:hover {
-            background-color: #244D61;
-            color: #fff;
-            border-radius: 1rem;
-            transition: all.3s ease-in-out;
-        }
+nav a.active,
+nav a:hover {
+    background-color: #244D61;
+    color: #fff;
+    border-radius: 1rem;
+    transition: all.3s ease-in-out;
+}
 
-        #click {
-            display: none;
-        }
+    
 
-        
+section {
+    margin: 2rem 8.5rem;
+}
 
-        
+.main {      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    margin-top: 9em;
+    margin-bottom: 10em;
+}
 
-        section {
-            margin: 2rem 8.5rem;
-            margin-bottom: 120px;
-        }
-
-        .main {
+.main h1 {
             
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin: 5rem auto;
-            margin-top: 9em;
-            margin-bottom: 10em;
+    font-size: 2.5rem;
+    font-weight: 600;
         }
 
-        .main h1 {
+.main p {
+    margin-top: 1rem;
+    font-size: 19px;
+    width: 45vw;
+    color: #c0c0c0;
+    font-family: IBM Plex Mono;
+    filter: drop-shadow(0px 1px 100px #547be7);
             
-            font-size: 2.5rem;
-            font-weight: 600;
-        }
+}
 
-        .main p {
-            margin-top: 1rem;
-            font-size: 19px;
-            width: 45vw;
-            color: #c0c0c0;
-            font-family: IBM Plex Mono;
-            filter: drop-shadow(0px 1px 100px #547be7);
+.habilidades {
+    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
+    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
+}
+
+#myname{
+    filter: drop-shadow(0px 100px 100px rgb(31, 30, 30));
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    color: white;
+    font-size: 1rem;
+    border: 1.6px solid #1f3844;
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    width: 26px;
             
-        }
-
-        #myname{
-            filter: drop-shadow(0px 100px 100px rgb(31, 30, 30));
-        }
-
-        .social {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.4rem;
-            margin-top: 1.7rem;
-        }
-
-        .social a {
-            color: white;
-            font-size: 1rem;
-            border: 1.6px solid #1f3844;
-            border-radius: 50%;
-            padding: .35rem;
-            text-align: center;
-            width: 26px;
-            
-        }
+}
 
         .social a:hover {
             color: #fff;
@@ -219,6 +226,11 @@ img {
     vertical-align: middle;
 }
 
+.projetos {
+    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
+    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
+}
+
 /* Botões de Navegação (Próximo e Anterior) */
 .prev, .next {
     cursor: pointer;
@@ -257,7 +269,6 @@ img {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
@@ -321,6 +332,12 @@ img {
 }
 
 /* Estilo para os ícones das redes sociais */
+
+.contato{
+    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
+    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
+}
+
 .social-links {
     margin-top: 30px;
 }
