@@ -36,9 +36,18 @@
         display: none;
     }
 
+    .images {
+        order: -1; 
+        margin-bottom: 2rem; 
+        max-width: 100%;
+        height: auto;
+    }
     .skillsList > li{
         width: auto;
         
+    }
+    .main > p{
+        max-width: 45vw;
     }
 
 }
@@ -56,6 +65,10 @@
     .mySlides > img{
         min-width: 50%;
         min-height: 50%;
+    }
+
+    .main > p{
+        min-width: 45vw;
     }
 }
 
