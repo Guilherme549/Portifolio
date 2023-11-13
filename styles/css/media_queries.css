@@ -49,6 +49,10 @@
     .descricaoProjeto{
         padding: 50px 0px 50px 0px;
     }
+
+    .social a{
+        font-size: 1.3rem;
+    }
    
 }
 
@@ -113,6 +117,7 @@
     .skillsList {
         /* display: contents; */
         grid-template-columns: repeat(2, 1fr);
+        gap: 1px; 
     }
 
     .skillsList > li{
@@ -122,6 +127,10 @@
 
     .descricaoProjeto{
         padding: 50px 0px 50px 0px;
+    }
+
+    .social a{
+        font-size: 1.3rem;
     }
 
 }
