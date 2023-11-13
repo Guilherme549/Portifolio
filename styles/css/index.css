@@ -85,6 +85,7 @@ section {
 
 .main p {
     margin-top: 1rem;
+    margin-bottom: 0px;
     font-size: 19px;
     width: 45vw;
     color: #c0c0c0;
@@ -93,7 +94,6 @@ section {
 }
 
 .habilidades {
-    padding-top: 70px; 
     scroll-margin-top: 70px;
 }
 
@@ -159,8 +159,8 @@ section {
 
 .skillsList > li{
     text-align: center;
-    height: 100px;
-    width: 200px;
+    max-height: 100px;
+    max-width: 200px;
     background-color: #00395379;
     border: 1px solid #244D61;
     filter: drop-shadow(0px 0px 10px #3c82a5);
@@ -175,8 +175,8 @@ section {
     font-size: 17px;
 }
 
+
 .slideshow-container {
-    max-width: 100%;
     position: relative;
     margin: auto;
     display: flex;
@@ -187,6 +187,7 @@ section {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    
 }
 
 @keyframes fade {
@@ -208,6 +209,7 @@ img {
 }
 
 .prev, .next {
+    
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -253,9 +255,15 @@ img {
     filter: drop-shadow(0 0 10px white);
 }
 
+.mySlides > img{
+    max-width: 37.7vw;
+    max-height: 50vh;
+}
+
 .descricaoProjeto{
-    max-width: 490px;
-    padding: 10px 0 10px 10px;
+    max-width: 37.7vw;
+    height: 60px;
+    padding: 20px 0px 20px 0px;
     background-color: white;
     color: black;
     filter: drop-shadow(0 0 1px white);
@@ -309,7 +317,7 @@ img {
 .social-icon {
     font-size: 24px;
     color: #333;
-    margin: 0 10px;
+    
     text-decoration: none;
 }
 
@@ -326,7 +334,6 @@ img {
 }
 
 footer {
-    width: 100vw;
     color: white;
     text-align: center;
     background-color: #244D61;
@@ -334,39 +341,5 @@ footer {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 768px) {
-    /* Estilos para telas menores, por exemplo, tablets e smartphones */
-    header {
-        padding: 1.2rem 0.5rem;
-    }
 
-    #myNameNav{
-        padding-left: 20px;
-    }
 
-    nav{
-        padding-right: 20px;
-    }
-
-    .main {
-        margin: 2rem auto;
-        margin-top: 7em;
-        margin-bottom: 8em;
-    }
-
-    .main h1 {
-        font-size: 2rem;
-    }
-
-    .main p {
-        font-size: 16px;
-    }
-
-    .skillsList {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .projetos {
-        padding-top: 50px;
-    }
-}

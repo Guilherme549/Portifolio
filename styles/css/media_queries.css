@@ -25,19 +25,23 @@
         
     }
 
-    .mySlides > img{
-        max-width: 50vw;
-        max-height: 50vh;
-    }
     .main{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .main h1{
+        text-align: center;
+    }
     
     .main p{
-        font-size: 25px;
+        font-size: 20px;
+        width: 90vw;
+        text-align: justify;
     }
+
+    
    
 }
 
@@ -75,11 +79,6 @@
         width: auto; 
     }
 
-    .mySlides > img{
-        min-width: 50%;
-        min-height: 50%;
-    }
-
     .main{
         display: flex;
         justify-content: center;
@@ -88,7 +87,19 @@
 
     .main p{
         font-size: 25px;
+        
     }
+
+    .projetos{
+        width: auto;
+    }
+
+
+    section {
+        margin: 0;
+    }
+
+
 }
 
 
