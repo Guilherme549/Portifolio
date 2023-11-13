@@ -9,10 +9,8 @@ html{
 
 body {
     font-family: 'Poppins', sans-serif;
-    max-height: 100vh;
     background-color: #080808;
 }
-
 
 header {
     position: fixed;
@@ -29,7 +27,6 @@ header {
     align-items: center;
     border-radius: 0 0 8px 8px;
     z-index: 100;
-         
 }
 
 #myNameNav{
@@ -44,7 +41,7 @@ header {
 .logo a {
     color: #c0c0c0;
     text-decoration: none;
- }
+}
 
 nav{
     padding-right: 80px;
@@ -67,8 +64,6 @@ nav a:hover {
     transition: all.3s ease-in-out;
 }
 
-    
-
 section {
     margin: 2rem 8.5rem;
 }
@@ -83,11 +78,10 @@ section {
     margin-bottom: 10em;
 }
 
-.main h1 {
-            
+.main h1 {   
     font-size: 2.5rem;
     font-weight: 600;
-        }
+}
 
 .main p {
     margin-top: 1rem;
@@ -96,12 +90,11 @@ section {
     color: #c0c0c0;
     font-family: IBM Plex Mono;
     filter: drop-shadow(0px 1px 100px #547be7);
-            
 }
 
 .habilidades {
-    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
-    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
+    padding-top: 70px; 
+    scroll-margin-top: 70px;
 }
 
 #myname{
@@ -122,93 +115,75 @@ section {
     border-radius: 50%;
     padding: .35rem;
     text-align: center;
-    width: 26px;
-            
+    max-width: 26px;
 }
 
-        .social a:hover {
-            color: #fff;
-            background-color: #244D61;
-            box-shadow:0 0 20px #4287aa;
-            transition: all .3s ease-in-out;
-        }
+.social a:hover {
+    color: #fff;
+    background-color: #244D61;
+    box-shadow: 0 0 20px #4287aa;
+    transition: all .3s ease-in-out;
+}
 
-        .bi-instagram:hover{
-            color: #e4405f;
-        }
+.bi-instagram:hover{
+    color: #e4405f;
+}
 
-        .bi-linkedin:hover{
-            color: #0077b5;
-        }
+.bi-linkedin:hover{
+    color: #0077b5;
+}
 
-        .bi-github:hover{
-            color: #333;
-        }
-        .main h1 span:nth-child(1) {
-            font-size: 1.5rem;
-        }
+.bi-github:hover{
+    color: #333;
+}
 
-        .images {
-            background-repeat: no-repeat;
-            background-position: cover;
-            width: 364px;
-            height: 364px;
-            filter: drop-shadow(0px 0px 100px #3b64d6);
-        }
+.main h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
 
-        #oi{ 
-            
-            -webkit-text-stroke: 1px #fff;
-            font-family: Arial, Helvetica, sans-serif;
-            color: transparent;
-            background-repeat: no-repeat;
-            background-image: linear-gradient(#01aced, #01aced);
-            -webkit-background-clip: text;
-            background-clip: none;
-            background-position: -500px 0;
-            animation: backcolor 5s linear infinite;
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    height: auto;
+    filter: drop-shadow(0px 0px 100px #3b64d6);
+}
 
-        }
+.skillsList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; 
+}
 
-    
-    .skillsList{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: repeat(3, 1fr);
-        gap: 10px; 
-    }
+.skillsList > li{
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: #00395379;
+    border: 1px solid #244D61;
+    filter: drop-shadow(0px 0px 10px #3c82a5);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: white;
+    list-style: none;
+}
 
-    
-    .skillsList > li{
-        text-align: center;
-        height: 100px;
-        width: 200px;
-        background-color: #00395379;
-        border: 1px solid #244D61;
-        filter: drop-shadow(0px 0px 10px #3c82a5);
-        border-radius: 15px;
-        margin-bottom: 20px;
-        color: white;
-        list-style: none;
-    }
+.skillsList > li:hover{
+    filter: drop-shadow(0px 0px 40px #3c82a5);
+    font-size: 17px;
+}
 
-    .skillsList > li:hover{
-        filter: drop-shadow(0px 0px 40px #3c82a5);
-        font-size: 17px;
-    }
-
-	
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-/* incio do slide show */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -228,11 +203,10 @@ img {
 }
 
 .projetos {
-    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
-    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
+    padding-top: 70px; 
+    scroll-margin-top: 70px; 
 }
 
-/* Botões de Navegação (Próximo e Anterior) */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -250,8 +224,8 @@ img {
 
 .prev{
     left: 1%;
-    
 }
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -261,7 +235,6 @@ img {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Estilo dos pontos/bullets/indicadores */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -278,23 +251,15 @@ img {
 
 .mySlides{
     filter: drop-shadow(0 0 10px white);
-    
 }
 
 .descricaoProjeto{
-    width: 490px;
-    height: 50px;
+    width: 100%;
     padding: 10px 0 10px 10px;
     background-color: white;
     color: black;
     filter: drop-shadow(0 0 1px white);
 }
-
-/* final do slide show */
-
-
-
-/* contato */
 
 .contato {
     padding: 20px;
@@ -331,13 +296,6 @@ img {
     color: #777;
 }
 
-/* Estilo para os ícones das redes sociais */
-
-.contato{
-    padding-top: 70px; /* Ajuste para a altura do seu cabeçalho */
-    scroll-margin-top: 70px; /* A mesma altura para garantir o espaçamento correto */
-}
-
 .social-links {
     margin-top: 30px;
 }
@@ -367,12 +325,47 @@ img {
     color: #0077b5;
 }
 
-/* fim contatos */
-
-footer{
+footer {
     color: white;
     text-align: center;
     background-color: #244D61;
     padding: 15px;
     margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores, por exemplo, tablets e smartphones */
+    header {
+        padding: 1.2rem 0.5rem;
+    }
+
+    #myNameNav{
+        padding-left: 20px;
+    }
+
+    nav{
+        padding-right: 20px;
+    }
+
+    .main {
+        margin: 2rem auto;
+        margin-top: 7em;
+        margin-bottom: 8em;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+
+    .skillsList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projetos {
+        padding-top: 50px;
+    }
 }
