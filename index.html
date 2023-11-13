@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/css/index.css">
+    <link rel="stylesheet" href="styles/css/media_queries.css" media="all">
+    <title>Guilherme Francisco</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" id="myNameNav">Guilherme Francisco</a>
+        </div>
+        <nav>
+            <a href="#">Sobre</a>
+            <a href="#">Habilidades</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="main">
+            <div class="detail">
+                <h1><br> <span id="myname" style="color:#244D61;">Guilherme
+                        Francisco</span></h1>
+                <p>Sou um entusiasta do desenvolvimento web com paixão pela área de tecnologia. Atualmente, meu foco
+                    está no desenvolvimento back-end, mas tenho planos de me tornar um desenvolvedor full-stack no
+                    futuro. Curso Engenharia de Software, o que me proporcionou uma base sólida para iniciar minha
+                    jornada.</p>
+                <div class="social">
+                    <a href="https://github.com/Guilherme549?tab=repositories" target="_blank"><i
+                            class="bi bi-github"></i> </a>
+                    <a href="https://instagram.com/guilherme.alvs?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+                            class="bi bi-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/guilherme-francisco-6938b91b4/" target="_blank"><i
+                            class="bi bi-linkedin"></i> </a>
+                </div>
+            </div>
+            <div class="images">
+                <img src="styles/img/profile-pic (3)_photos_v2_x2_colored_toned_light_ai.png" alt="Foto" width="100%">
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades">
+        <h2 style="color: white; margin-bottom: 20px;">Habilidades de Programação</h2>
+        <div class="skills-box" data-skills-box>
+            <ul class="skillsList">
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Python</div>
+                        <div class="card-icon">
+                            <img style="height: 48px;" src="styles/img/python-original.svg" alt="Python logo" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Django</div>
+                        <div class="card-icon">
+                            <img style="height: 48px;" src="styles/img/djangoIcon.png" alt="Django logo" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">HTML5</div>
+                        <div class="card-icon">
+                            <img src="styles/img/html5.png" alt="HTML5 logo" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Css3</div>
+                        <div class="card-icon">
+                            <img src="styles/img/css3.png" alt="css logo" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Javascript</div>
+                        <div class="card-icon">
+                            <img src="styles/img/javascript.png" alt="javascript logo" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Bootstrap</div>
+                        <div class="card-icon">
+                            <img src="styles/img/bootstrap.png" alt="bootstrap logo" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projetos">
+        <h2 style="color: white; margin-bottom: 20px;">Projetos trabalhados</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="styles/img/Todo_list500px.png" alt="Projeto Todo">
+                <p class="descricaoProjeto">
+                    Site para agendar listas de tarefas. Tecnologias ultilizadas: Python, FastApi, HTML5 e CSS3.
+                </p>
+            </div>
+            <div class="mySlides fade">
+                <img src="styles/img/comanda500px.png" alt="Projeto Comanda">
+                <p class="descricaoProjeto">
+                    Projeto de uma comanda para registrar pedidos de bares e restaurantes feito em Python, Django, HTML5
+                    e CSS3
+                </p>
+            </div>
+            <div class="mySlides fade">
+                <img src="styles/img/calculadoraIMC500pxs.png" alt="Projeto calculadora">
+                <p class="descricaoProjeto">
+                    Calculadora online para registrar IMC (indice de massa corporal). Tecnologias ultilizadas: HTML5,
+                    CSS3 e javascript
+                </p>
+            </div>
+            <div class="mySlides fade">
+                <img src="styles/img/vitalab500px.png" alt="Projeto VitaLab">
+                <p class="descricaoProjeto">
+                    Sistema criado utilizando Django para realizar a gestão de laboratorio de exames.
+                </p>
+            </div>
+            <div class="mySlides fade">
+                <img src="styles/img/TypEvent500px.png" alt="Projeto TypeEvent">
+                <p class="descricaoProjeto">
+                    Site para criar eventos e gerar certificados. Tecnologias ultilizadas: Python, Django, HTML5 e CSS3.
+                </p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+
+        </div>
+
+    </section>
+
+    <section class="contato">
+        <h2>Contato</h2>
+        <div class="contato-info">
+            <div class="info-item">
+
+                <h3>Address:</h3>
+                <p>Goianésia, GO</p>
+            </div>
+            <div class="info-item">
+                <h3>WhatsApp:</h3>
+                <p>(62) 98595-3693</p>
+            </div>
+            <div class="info-item">
+                <h3>Email:</h3>
+                <p><a href="mailto:guilhermevs54@gmail.com">guilhermevs54@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <h3>Redes Sociais:</h3>
+            <div class="social-icons">
+                <a href="https://github.com/Guilherme549?tab=repositories" class="social-icon" target="_blank"><i
+                        class="bi bi-github"></i></a>
+                <a href="https://instagram.com/guilherme.alvs?igshid=MzNlNGNkZWQ4Mg==" class="social-icon"
+                    target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/guilherme-francisco-6938b91b4/" class="social-icon"
+                    target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        © 2023 Guilherme. All rights reserved
+    </footer>
+
+    <script src="styles/js/script.js"></script>
+
+</body>
+
+</html>
