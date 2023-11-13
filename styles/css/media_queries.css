@@ -22,6 +22,8 @@
 
     .skillsList > li{
         width: auto;
+        max-width: 90px;
+        height: 190;
         
     }
 
@@ -97,6 +99,16 @@
 
     section {
         margin: 0;
+    }
+
+    .skillsList {
+        /* display: contents; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skillsList > li{
+        max-width: 90px;
+        height: 180;
     }
 
 
