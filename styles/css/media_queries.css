@@ -47,7 +47,7 @@
     }
 
     .descricaoProjeto{
-        padding: 40px 0px 60px 0px;
+        padding: 60px 0px 70px 0px;
     }
 
     .social a{
@@ -62,20 +62,25 @@
     }
 
     .images {
-        order: -1; 
-        margin-bottom: 2rem; 
+        order: -1;
+        margin-bottom: 2rem;
         max-width: 100%;
         height: auto;
     }
     .skillsList > li{
         width: auto;
-        
     }
     .main{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .descricaoProjeto{
+        text-align: center;
+    }
+
+    
 }
 
 

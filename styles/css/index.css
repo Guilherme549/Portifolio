@@ -257,18 +257,20 @@ img {
 }
 
 .mySlides > img{
-    min-width: 35vw;
+    width: 50vw;
     max-height: 50vh;
 }
 
 .descricaoProjeto{
-    min-width: 35vw;
-    height: 60px;
-    padding: 20px 0px 20px 0px;
+    width: 50vw;
+    padding: 20px 0; /* Ajusta o espaçamento superior e inferior */
     background-color: white;
     color: black;
     filter: drop-shadow(0 0 1px white);
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto; /* Centraliza a descrição horizontalmente */
 }
+
 
 .contato {
     padding: 20px;
